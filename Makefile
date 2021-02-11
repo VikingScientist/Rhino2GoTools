@@ -1,7 +1,7 @@
 CC = g++
 PROG = 3dm_2_g2
 
-GOTLIB	= -lGoToolsCore -L/usr/local/lib/GoTools -lGoTrivariate
+GOTLIB	= -lGoToolsCore -L/usr/local/lib/GoTools
 ONOPT	= -I../opennurbs
 ONLIB	= -L../opennurbs -lopenNURBS
 
